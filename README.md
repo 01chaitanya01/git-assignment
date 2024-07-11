@@ -104,3 +104,91 @@ git push origin master
 ```
 
 This is a conflicting change.
+
+## Handling Merge Conflicts
+
+### Step 1: Create a New Branch
+
+Create a new branch named `conflict` and switch to it:
+
+```sh
+git checkout -b conflict
+```
+
+### Step 2: Edit the README.md File (Conflict Branch)
+
+Edit the `README.md` file to add conflicting content. For example, add the following line:
+
+
+### Step 3: Add and Commit the Changes (Conflict Branch)
+
+Add and commit the changes:
+
+```sh
+git add README.md
+git commit -m "Add conflicting content to README.md"
+```
+
+### Step 4: Switch Back to the Master Branch
+
+Switch back to the master branch:
+
+```sh
+git checkout master
+```
+
+### Step 5: Edit the README.md File (Master Branch)
+
+Edit the `README.md` file to add different content that will conflict with the `conflict` branch. For example, add the following line:
+
+
+### Step 6: Add and Commit the Changes (Master Branch)
+
+Add and commit the changes:
+
+```sh
+git add README.md
+git commit -m "Add different conflicting content to README.md"
+```
+
+### Step 7: Attempt to Merge the Conflict Branch into Master
+
+Attempt to merge the `conflict` branch into `master`:
+
+```sh
+git merge conflict
+```
+
+### Step 8: Resolve the Merge Conflict
+
+Open the `README.md` file. The conflicting changes will be marked like this:
+
+
+
+Edit the file to resolve the conflicts and keep the necessary changes. For example:
+
+
+
+### Step 9: Add the Resolved File
+
+Add the resolved file:
+
+```sh
+git add README.md
+```
+
+### Step 10: Complete the Merge
+
+Complete the merge:
+
+```sh
+git commit -m "Merge branch 'conflict'"
+```
+
+### Step 11: Push Changes to GitHub
+
+Push the changes to GitHub:
+
+```sh
+git push origin master
+```
