@@ -102,3 +102,5 @@ Push the changes to GitHub:
 ```sh
 git push origin master
 ```
+
+This will cause a conflict.
