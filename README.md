@@ -23,6 +23,8 @@ cd git-assignment
 git init
 ```
 
+![Alt text](./images/1.png)
+
 ### Step 3: Create a README File
 
 Created a `README.md` file with initial content:
@@ -40,6 +42,8 @@ git add README.md
 git commit -m "Initial commit with README file"
 ```
 
+![Alt text](./images/2.png)
+
 ### Step 5: Create a GitHub Repository
 
 Created a new repository on GitHub named `git-assignment`.
@@ -52,6 +56,10 @@ Linked local repository to GitHub and pushed changes:
 git remote add origin https://github.com/01chaitanya01/git-assignment.git
 git push -u origin master
 ```
+
+![Alt text](./images/3.png)
+![Alt text](./images/4.png)
+
 ## Branching and Merging
 
 ### Step 1: Create a New Branch
@@ -87,6 +95,8 @@ Switch back to the master branch:
 git checkout master
 ```
 
+![Alt text](./images/5.png)
+
 ### Step 5: Merge the Feature Branch
 
 Merge the `feature` branch into the `master` branch:
@@ -119,7 +129,6 @@ git checkout -b conflict
 
 Edit the `README.md` file to add conflicting content. For example, add the following line:
 
-
 ### Step 3: Add and Commit the Changes (Conflict Branch)
 
 Add and commit the changes:
@@ -141,7 +150,6 @@ git checkout master
 
 Edit the `README.md` file to add different content that will conflict with the `conflict` branch. For example, add the following line:
 
-
 ### Step 6: Add and Commit the Changes (Master Branch)
 
 Add and commit the changes:
@@ -159,15 +167,17 @@ Attempt to merge the `conflict` branch into `master`:
 git merge conflict
 ```
 
+![Alt text](./images/6.png)
+
 ### Step 8: Resolve the Merge Conflict
 
 Open the `README.md` file. The conflicting changes will be marked like this:
 
-
+![Alt text](./images/7.png)
 
 Edit the file to resolve the conflicts and keep the necessary changes. For example:
 
-
+![Alt text](./images/8.gif)
 
 ### Step 9: Add the Resolved File
 
