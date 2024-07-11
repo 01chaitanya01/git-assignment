@@ -52,3 +52,53 @@ Linked local repository to GitHub and pushed changes:
 git remote add origin https://github.com/01chaitanya01/git-assignment.git
 git push -u origin master
 ```
+## Branching and Merging
+
+### Step 1: Create a New Branch
+
+Create a new branch named `feature` and switch to it:
+
+```sh
+git checkout -b feature
+```
+
+### Step 2: Create a New File
+
+Create a new file `feature.txt` and add some content:
+
+```sh
+touch feature.txt
+```
+
+### Step 3: Add and Commit the New File
+
+Add and commit the new file:
+
+```sh
+git add feature.txt
+git commit -m "feature file added"
+```
+
+### Step 4: Switch Back to the Master Branch
+
+Switch back to the master branch:
+
+```sh
+git checkout master
+```
+
+### Step 5: Merge the Feature Branch
+
+Merge the `feature` branch into the `master` branch:
+
+```sh
+git merge feature
+```
+
+### Step 6: Push Changes to GitHub
+
+Push the changes to GitHub:
+
+```sh
+git push origin master
+```
