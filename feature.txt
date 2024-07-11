@@ -1,0 +1,19 @@
+Git and Command Line Features
+
+
+Git Features
+
+Version Control: Track changes, revert to previous versions.
+Branching and Merging: Work on features/bugs in branches, merge into main.
+Collaboration: Multiple users can work on the same project.
+Distributed Development: Complete local history of the project.
+Staging Area: Control what changes are committed.
+
+
+Command Line Features
+
+Navigation: cd, ls, pwd to explore directories.
+File Operations: touch, rm, mv, cp for file management.
+Text Processing: cat, grep, awk, sed for manipulating text.
+System Monitoring: top, htop, df for performance monitoring.
+Scripting: Automate tasks with Bash scripts and cron jobs.
